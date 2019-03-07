@@ -1,0 +1,28 @@
+
+ul {
+    list-style-image: url('seta_vermelha.png');
+
+}
+
+.menu {
+    color: red;
+    font-size: 12px;
+    font-family: "Verdana";
+}
+
+.linha {
+    list-style-type: none;
+    border-bottom: 1px dotted red;
+}
+
+.menu.ul:hover {
+    color: green;
+    border-bottom: 1px dotted green;
+    list-style-image: url('seta_verde.png')
+}
+
+.linha:hover {
+    color: green;
+    border-bottom: 1px dotted green;
+    list-style-image: url('seta_verde.png')
+}

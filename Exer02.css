@@ -1,0 +1,59 @@
+
+a.menu:link{ 
+text-decoration:none; 
+
+}
+
+a.menu2:link{
+    text-decoration: overline;
+   
+}
+a.menu2:active{
+    text-decoration: line-through;
+}
+
+a.menu2:visited{
+    text-decoration: underline;
+}
+
+a.menu3:visited{
+    color:orange;
+    text-decoration:none;
+}
+
+a.menu3:hover {
+    color:green;
+    text-decoration: line-through;
+  }
+
+a.menu4:link{
+   border: 2px solid blue;
+   background:black;
+   color: #FFF;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-bottom: 10px;
+} 
+
+a.menu4:hover{
+    border: 2px dotted  black;
+    background:white;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+a.menu5:link{
+    color: red;
+}
+
+a.menu5:visited{
+    font-style: italic;
+    font-weight: bold;
+    color: orange;
+}
+
+a.menu5:hover{
+    color: yellow;
+}

@@ -1,0 +1,12 @@
+.menu{
+    text-decoration: none;
+}
+
+.menu:hover img{
+    text-decoration: border;
+    border: 4px solid green;
+}
+
+.menu:hover a{
+    text-decoration: underline green;
+}
